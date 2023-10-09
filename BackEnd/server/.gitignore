@@ -1,0 +1,19 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*~
+__init__.py
+*.egg-info/
+dist/
+build/
+# Ignore virtual environment files (venv or virtualenv)
+/venv/
+/virtualenv/
+
+# Ignore database files (SQLite, PostgreSQL, etc.)
+/db.sqlite
+/db.sqlite3
+/*.db
+/__pycache__/
